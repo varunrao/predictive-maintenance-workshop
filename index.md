@@ -1,4 +1,4 @@
-# Building recommender system with Amazon ML services
+# Build a predictive maintenance system with Amazon SageMaker
 
 ## Getting Started
 
