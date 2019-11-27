@@ -25,9 +25,13 @@ Use the Team hash to login. The team hash will be provided by the speakers.
 
 Make sure you have logged into the AWS account (using Event engine login) before starting this. Once logged in, you can click on the link below to deply the AWS Cloudformation script. 
 
+### us-east-2 (Ohio)
 
 <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=PredictiveMaintenanceWorkshop&templateURL=https://workshop-assets-us-east-2.s3.amazonaws.com/predictive-maintenance-using-machine-learning/v1.0.0/cloudformation/master.yaml" target="_blank"><img src="static/imgs/cfn-stack.png" title="Launch Stack" width="100" height="30" /></a>
 
+### eu-central-1 (Frankfort)
+
+<a href="https://console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks/new?stackName=PredictiveMaintenanceWorkshop&templateURL=https://workshop-assets-eu-central-1.s3.amazonaws.com/predictive-maintenance-using-machine-learning/v1.0.0/cloudformation/master.yaml" target="_blank"><img src="static/imgs/cfn-stack.png" title="Launch Stack" width="100" height="30" /></a>
 Follow along with the screenshots if you have any questions about these steps.
 
 ### Cloud Formation Wizard
