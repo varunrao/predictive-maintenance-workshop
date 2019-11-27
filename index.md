@@ -65,20 +65,10 @@ The steps below outline the process of building your own recommendation model, i
 
 ### Activity 1
 
-![StackWizard5](static/imgs/activity-1.png)
 
-Steps:
- - Use a pre-trained model to generate recommendations (it will have steps to show how the model was built)
- - Amazon Sagemaker Ground Truth to generate test data
- - Using this generated data to do transfer learning on the previous model
 
 ### Activity 2
 
-![StackWizard5](static/imgs/activity-2.png)
-
-Steps:
- - Use Amazon Personalize to generate recommendations
- - Enable event tracking and view updated recommendations
 
 ## Using the Notebooks
 
@@ -88,17 +78,9 @@ The rest of the lab will take place via the Jupyter notebooks, simply read each 
 <a href="https://www.youtube.com/watch?v=Gzun8PpyBCo" target="_blank">Using JupyterLab</a>
 
 
-We have 6 notebooks:
+We have 2 notebooks:
 
- - 1_recommender.ipynb - Base recommender
- - 2_ground_truth_setup.ipynb - Setup Amazon Ground Truth to generate more personalized training data
- - 3_transfer_learning.ipynb - Run transfer learning
- - 4_personalize_build_campaign.ipynb - Run personalization
- - 5_view_campaign_and_interactions.ipynb - Enable event tracking
- - 6_cleanup.ipynb - Cleanup
+ - sagemaker_predictive_maintenance.ipynb - notebook to build the initial LSTM model
+ - ground_truth_setup.ipynb - Setup Amazon Ground Truth to generate data for Root cause analysis
 
 
-
-## After the Notebooks
-
-You'll now notice that the stack is in progress of being deleted. Once you see `Delete Completed` you know that everything has been deleted and you are 100% done with this lab.
