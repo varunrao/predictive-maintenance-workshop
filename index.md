@@ -65,10 +65,12 @@ The steps below outline the process of building your own recommendation model, i
 
 ### Activity 1
 
+<Place the atchitecture diagram>
 
 
 ### Activity 2
 
+<Place the atchitecture diagram>
 
 ## Using the Notebooks
 
