@@ -2,13 +2,13 @@
 
 ## Getting Started
 
-The below steps will walk you through building an environment. If you have any issues with any of the content below please open an issue here in the repository.
+The below steps will walk you through building an environment. 
 
 ## Prerequisites
 
 You will need access to AWS account in order to run the AWS cloudformation script.
-This will be provided to you using the Event engine login. 
-Please check with the speakers in order to get access to a AWS account.
+The next few steps will will provide Event engine login. 
+Please check with the speakers if you have trouble.
 
 ## AWS account access - Event engine login url
 
@@ -28,11 +28,11 @@ Make sure you have logged into the AWS account (using Event engine login) before
 ### us-east-2 (Ohio)
 
 <a href="https://console.aws.amazon.com/cloudformation/home?region=us-east-2#/stacks/new?stackName=PredictiveMaintenanceWorkshop&templateURL=https://workshop-assets-us-east-2.s3.amazonaws.com/predictive-maintenance-using-machine-learning/v1.0.0/cloudformation/master.yaml" target="_blank"><img src="static/imgs/cfn-stack.png" title="Launch Stack" width="100" height="30" /></a>
-
+/*:
 ### eu-central-1 (Frankfurt)
 
 <a href="https://console.aws.amazon.com/cloudformation/home?region=eu-central-1#/stacks/new?stackName=PredictiveMaintenanceWorkshop&templateURL=https://workshop-assets-eu-central-1.s3.amazonaws.com/predictive-maintenance-using-machine-learning/v1.0.0/cloudformation/master.yaml" target="_blank"><img src="static/imgs/cfn-stack.png" title="Launch Stack" width="100" height="30" /></a>
-
+ */
 
 Follow along with the screenshots if you have any questions about these steps.
 
@@ -61,7 +61,7 @@ Once it has completed you'll see green text like below indicating that the work 
 
 ## Overall architecture
 
-The steps below outline the process of building your own recommendation model, improving it, and then cleaning up all of your resources to prevent any unwanted charges. To get started executing these follow the steps in the next section.
+The steps below outline the process of building your own predictive maintenance model, enhancing it with root cause analysis, and then cleaning up all of your resources. To get started executing these follow the steps in the next section.
 
 ### Activity 1
 
